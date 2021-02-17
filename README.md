@@ -8,3 +8,18 @@
 Либо может вывести список всех банков.
 Размещен на внешнем сервере heroku.
 (Локально запускается из файла main.py)
+
+При создании Бота возможна ошибка:
+AttributeError: 'TeleBot' object has no attribute 'message_handler' 
+
+Не паникуй. Скорее всего помогут вот эти команды (но это не точно;) :
+pip install PyTelegramBotAPI==2.2.3
+pip install PyTelegramBotAPI==3.6.7
+Или поищи решение здесь:
+https://stackoverflow.com/questions/64951712/telebot-object-has-no-attribute-message-handler
+https://www.pythonanywhere.com/forums/topic/26658/
+https://stackoverflow.com/questions/59909321/im-writing-a-telegram-bot-with-python
+
+
+Если есть вопросы и/или предложения найти меня можно здесь:
+https://vk.com/evrotigan
