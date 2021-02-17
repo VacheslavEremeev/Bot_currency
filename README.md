@@ -14,6 +14,7 @@ AttributeError: 'TeleBot' object has no attribute 'message_handler'
 
 Не паникуй. Скорее всего помогут вот эти команды (но это не точно;) :
 pip install PyTelegramBotAPI==2.2.3
+
 pip install PyTelegramBotAPI==3.6.7
 Или поищи решение здесь:
 https://stackoverflow.com/questions/64951712/telebot-object-has-no-attribute-message-handler
